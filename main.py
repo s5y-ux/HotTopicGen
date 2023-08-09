@@ -17,7 +17,7 @@ def Request(URLparameter: str) -> dict:
 	Result = json.loads(Response.read())
 	return(Result)
 
-All_The_News = Request("https://newsdata.io/api/1/news?apikey=pub_261324ec320f89e25b0160ed20d8bad5267b4&q=politics")
+All_The_News = Request("News API key here...")
 
 Most_Recent_Article = All_The_News['results'][0]
 
